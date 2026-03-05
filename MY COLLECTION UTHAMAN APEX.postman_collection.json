@@ -1,0 +1,66 @@
+{
+  "info": {
+    "_postman_id": "43bf5b80-9121-4465-b4f2-65fc205f3b53",
+    "name": "MY COLLECTION UTHAMAN APEX",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "14991505"
+  },
+  "item": [
+    {
+      "name": "ORACLE APEX",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "username",
+            "value": "Uthaman",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "https://oracleapex.com/ords/apexuthaman/authen/get-token",
+          "protocol": "https",
+          "host": [
+            "oracleapex",
+            "com"
+          ],
+          "path": [
+            "ords",
+            "apexuthaman",
+            "authen",
+            "get-token"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Validate Token",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "username",
+            "value": "Uthaman",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "https://oracleapex.com/ords/apexuthaman/authen/get-token",
+          "protocol": "https",
+          "host": [
+            "oracleapex",
+            "com"
+          ],
+          "path": [
+            "ords",
+            "apexuthaman",
+            "authen",
+            "get-token"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
